@@ -3,63 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somice</title>
-    <style>
-        body {
-            font-family: Georgia, "Times New Roman", serif;
-            background-color: #f5f5dc;
-            color: #333;
-            margin: 20px;
-            line-height: 1.5;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border: 1px solid #ccc;
-        }
-        h1 {
-            text-align: center;
-            font-size: 24px;
-            color: #0066cc;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 10px;
-        }
-        h2 {
-            font-size: 18px;
-            color: #333;
-            margin-top: 25px;
-        }
-        ul {
-            margin: 15px 0;
-            padding-left: 25px;
-        }
-        li {
-            margin: 8px 0;
-        }
-    </style>
+    <meta name="description" content="SoMICE Sàrl – Schweizer Event-Agentur für Meetings, Incentives, Kongresse und Firmenanlässe. Viersprachiges Team, 20+ Jahre Erfahrung. Lausanne.">
+    <meta name="keywords" content="Event-Agentur, Kongressorganisation, Firmenanlässe, Medizinische Events, Incentives, Meetings, Schweiz, Lausanne">
+    <meta name="author" content="SoMICE Sàrl">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.somice.ch/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.somice.ch/">
+    <meta property="og:title" content="SoMICE Sàrl – Event-Agentur Schweiz | Meetings, Incentives, Kongresse">
+    <meta property="og:description" content="Relax, your event works! SoMICE organisiert Ihre Firmen- und Medizinevents in der Schweiz und weltweit.">
+    <meta property="og:image" content="https://www.somice.ch/upload/facebook-image.png">
+    <meta property="og:locale" content="de_CH">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SoMICE Sàrl – Event-Agentur Schweiz">
+
+    <!-- Geo -->
+    <meta name="geo.region" content="CH-VD">
+    <meta name="geo.placename" content="Lausanne">
+    <meta name="geo.position" content="46.5197;6.6323">
+    <meta name="ICBM" content="46.5197, 6.6323">
+
+    <title>SoMICE Sàrl – Event-Agentur Schweiz | Meetings, Incentives, Kongresse</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Willkommen bei Somice</h1>
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SoMICE Sàrl",
+        "url": "https://www.somice.ch",
+        "logo": "https://www.somice.ch/gimg/150-90-off/Editor/logo-somice/logo-somice.png",
+        "description": "Schweizer Event-Agentur für Meetings, Incentives, Kongresse und Firmenanlässe.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenue des Figuiers 4",
+            "addressLocality": "Lausanne",
+            "postalCode": "1007",
+            "addressCountry": "CH"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.5197,
+            "longitude": 6.6323
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+41-78-682-39-84",
+            "contactType": "customer service",
+            "email": "contact@somice.ch",
+            "areaServed": "CH",
+            "availableLanguage": ["French", "German", "English", "Italian"]
+        }
+    }
+    </script>
 
-        <p>
-            Somice ist Ihr zuverlässiger Partner für qualitativ hochwertige Dienstleistungen.
-            Seit vielen Jahren stehen wir für Kompetenz und Kundenzufriedenheit.
-        </p>
+    <a href="#main" class="skip-link">Zum Inhalt springen</a>
 
-        <h2>Unsere Leistungen</h2>
-        <ul>
-            <li>Beratung und Planung</li>
-            <li>Technische Unterstützung</li>
-            <li>Wartung und Service</li>
-            <li>Schulungen</li>
-        </ul>
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo" aria-label="SoMICE Startseite">
+                <img src="https://www.somice.ch/gimg/150-90-off/Editor/logo-somice/logo-somice.png" alt="SoMICE Sàrl – Event-Agentur" width="150" height="90">
+            </a>
 
-        <p>
-            Kontaktieren Sie uns für ein unverbindliches Angebot. Wir freuen uns auf Ihre Anfrage.
-        </p>
-    </div>
+            <nav class="nav" aria-label="Hauptnavigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menü öffnen">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#start">Start</a></li>
+                    <li class="has-submenu">
+                        <a href="#leistungen" aria-haspopup="true">Leistungen</a>
+                        <ul class="submenu">
+                            <li><a href="#medizinische-events">Medizinische Events</a></li>
+                            <li><a href="#firmenanlaesse">Firmenanlässe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#ueber-uns">Über uns</a></li>
+                    <li><a href="#referenzen">Referenzen</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="lang-switcher">
+                <span class="lang-current">DE</span>
+                <ul class="lang-dropdown">
+                    <li><a href="https://www.somice.ch/f/" hreflang="fr">FR</a></li>
+                    <li><a href="https://www.somice.ch/d/" hreflang="de" class="active">DE</a></li>
+                    <li><a href="https://www.somice.ch/e/" hreflang="en">EN</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="start" aria-label="Willkommen bei SoMICE">
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+                <img src="https://www.somice.ch/gimg/1600-460-off/editor/bandeau/bandeau.jpg" alt="" class="hero-image" fetchpriority="high">
+            </div>
+            <div class="hero-content">
+                <p class="hero-tagline">Relax, your event works!</p>
+                <h1 class="hero-title">SoMICE – Ihre Event-Agentur in der Schweiz</h1>
+                <p class="hero-subtitle"><strong>M</strong>eetings, <strong>I</strong>ncentives, <strong>C</strong>ongresses, <strong>E</strong>vents – wir konzipieren und organisieren Ihre Firmenanlässe.</p>
+                <a href="#kontakt" class="btn btn-hero">Kontakt aufnehmen</a>
+            </div>
+            <div class="hero-scroll" aria-hidden="true">
+                <span>Scroll</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </div>
+        </section>
+
+        <!-- Glückskeks-Karten -->
+        <section class="fortune-cards" id="fortune-cards" aria-labelledby="fortune-heading">
+            <div class="container">
+                <h2 id="fortune-heading" class="section-title">Öffne deinen Glückskeks</h2>
+                <p class="section-intro">Klicke auf eine Karte und entdecke einen Event-Tipp von SoMICE.</p>
+                <div class="cards-grid">
+                    <article class="fortune-card" data-fortune="0">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Ein guter Event beginnt mit einer klaren Vision. Wir helfen dir, sie umzusetzen.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="fortune-card" data-fortune="1">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Dein Team verdient ein unvergessliches Erlebnis. Vertraue den Profis.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="fortune-card" data-fortune="2">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Die besten Events entstehen, wenn du dich auf das Wesentliche konzentrierst – wir kümmern uns um den Rest.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="fortune-card" data-fortune="3">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Viersprachig, erfahren, präzise – SoMICE steht für Qualität seit 2010.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="fortune-card" data-fortune="4">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Ein erfolgreicher Kongress braucht Logistik, die funktioniert. Wir liefern.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="fortune-card" data-fortune="5">
+                        <div class="fortune-card-inner">
+                            <div class="fortune-card-front">
+                                <span class="fortune-icon" aria-hidden="true">🥠</span>
+                                <span class="fortune-hint">Klicken zum Öffnen</span>
+                            </div>
+                            <div class="fortune-card-back">
+                                <p class="fortune-text">Dein nächster Event wird ein Erfolg – wenn du mit SoMICE planst.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ziel & Stärken -->
+        <section class="about-section" id="ueber-uns">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://www.somice.ch/upload/editor/somice-objectif-700.jpg" alt="SoMICE Team bei der Eventplanung" width="700" height="468">
+                    </div>
+                    <div class="about-content">
+                        <h2 class="section-title">Unser Ziel</h2>
+                        <p>Wir stellen sicher, dass Ihr Event bzw. Ihre Kongressteilnahme ein voller Erfolg wird. Sie haben den Kopf frei und können sich auf die strategischen Aspekte konzentrieren, während wir uns um alles andere kümmern. Wir gewährleisten eine durchgehende Betreuung und Kontrolle des Veranstaltungsablaufs.</p>
+                        <h3>Unsere Stärken</h3>
+                        <ul class="strengths-list">
+                            <li>Ein viersprachiges Team: Französisch, Deutsch/Schweizerdeutsch, Englisch und Italienisch</li>
+                            <li>Ausgezeichnete Kenntnis des Schweizer Marktes mit regionalen Besonderheiten</li>
+                            <li>Mehr als zwanzig Jahre Erfahrung</li>
+                            <li>Präzision und Qualität – wir halten Fristen und Budgets ein</li>
+                        </ul>
+                        <a href="#kontakt" class="btn">Kontaktieren Sie uns</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leistungen -->
+        <section class="services-section" id="leistungen">
+            <div class="container">
+                <h2 class="section-title">Leistungen</h2>
+                <div class="services-grid">
+                    <article class="service-card" id="medizinische-events">
+                        <div class="service-image">
+                            <img src="https://www.somice.ch/gimg/700-466-off/editor/somice-home-1/somice-home-1.jpg" alt="Medizinische Events" width="700" height="466">
+                        </div>
+                        <div class="service-content">
+                            <h3>Medizinische Events</h3>
+                            <p>Seit fast 20 Jahren unterstützen wir Pharmaunternehmen und wissenschaftliche Gesellschaften mit grossem Engagement bei der Organisation und Durchführung ihrer Anlässe in der Schweiz und im Ausland.</p>
+                            <a href="https://www.somice.ch/d/organisation-seminar-meeting/medizinische-events.asp" class="link-arrow">Weitere Informationen</a>
+                        </div>
+                    </article>
+                    <article class="service-card" id="firmenanlaesse">
+                        <div class="service-image">
+                            <img src="https://www.somice.ch/gimg/700-466-off/editor/somice-home-3/somice-home-3.jpg" alt="Firmenanlässe" width="700" height="466">
+                        </div>
+                        <div class="service-content">
+                            <h3>Firmenanlässe</h3>
+                            <p>Ob Jahresabschlussfeier, Jubiläum oder Betriebsausflug – wir unterbreiten Ihnen ein individualisiertes Angebot, zugeschnitten auf Ihre Wünsche, Bedürfnisse und Ihr Budget.</p>
+                            <a href="https://www.somice.ch/d/organisation-seminar-meeting/firmenanlaesse.asp" class="link-arrow">Weitere Informationen</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referenzen -->
+        <section class="testimonials-section" id="referenzen">
+            <div class="container">
+                <div class="testimonial-layout">
+                    <div class="testimonial-image">
+                        <img src="https://www.somice.ch/gimg/700-466-off/editor/somice-home-2/somice-home-2.jpg" alt="Kundenzufriedenheit" width="700" height="466">
+                    </div>
+                    <div class="testimonial-content">
+                        <h2 class="section-title">Was unsere Kunden sagen</h2>
+                        <p>Seit vielen Jahren kümmern wir uns mit leidenschaftlichem Engagement um die Organisation von Firmen- und Fachveranstaltungen – zur grossen Zufriedenheit unserer Kunden.</p>
+                        <a href="https://www.somice.ch/d/den-erfolg-ihrer-veranstaltung-sicherstellen.asp" class="btn">Kundenstimmen lesen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="team-section">
+            <div class="container">
+                <div class="team-layout">
+                    <div class="team-image">
+                        <img src="https://www.somice.ch/upload/editor/somice-equipe-700.jpg" alt="SoMICE Team" width="700" height="468">
+                    </div>
+                    <div class="team-content">
+                        <h2 class="section-title">Unser Team</h2>
+                        <p>Gegründet wurde SoMICE von Sandra Keckeis im Oktober 2010. Heute zählt die Firma 21 Mitarbeiter, die alle mehrere Sprachen sprechen.</p>
+                        <p>Alle unsere Mitarbeiter verfügen über langjährige Erfahrung im Bereich der Eventorganisation und bringen ihre spezifischen Kompetenzen ins Team ein. Proaktiv und zuvorkommend freuen sie sich auf Ihre Kontaktaufnahme.</p>
+                        <a href="https://www.somice.ch/d/team-viersprachig-mitarbeiterinnen-ehrsprachig-old.asp" class="link-arrow">Team kennenlernen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section class="contact-section" id="kontakt">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-grid">
+                    <address class="contact-address">
+                        <strong>SoMICE Sàrl</strong><br>
+                        Avenue des Figuiers 4<br>
+                        CH-1007 Lausanne
+                        <p><a href="tel:+41786823984">T. +41 78 682 39 84</a></p>
+                        <p><a href="mailto:contact@somice.ch">contact@somice.ch</a></p>
+                        <p><a href="mailto:fournisseurs@somice.ch">fournisseurs@somice.ch</a></p>
+                    </address>
+                    <div class="contact-form-wrapper">
+                        <p class="form-note">Für ein unverbindliches Angebot kontaktieren Sie uns per E-Mail oder Telefon. Ein Kontaktformular kann bei Bedarf integriert werden.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SoMICE Sàrl</h3>
+                    <ul>
+                        <li>Ein viersprachiges Team</li>
+                        <li>Ausgezeichnete Kenntnis des Marktes</li>
+                        <li>Langjährige Erfahrung</li>
+                        <li>Präzision und Qualität</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#leistungen">Leistungen</a></li>
+                        <li><a href="#ueber-uns">Über uns</a></li>
+                        <li><a href="#referenzen">Referenzen</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Kontakt</h3>
+                    <p>SoMICE Sàrl<br>Avenue des Figuiers 4<br>CH-1007 Lausanne</p>
+                    <p><a href="tel:+41786823984">+41 78 682 39 84</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 SoMICE Sàrl</p>
+                <p><a href="https://www.somice.ch/d/rechtliche-informationen.asp">Rechtliche Informationen</a> · <a href="https://www.somice.ch/d/datenschutzerklarung.asp">Datenschutz</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
